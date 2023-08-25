@@ -33,5 +33,7 @@ jobs:
 
     - name: Build Docker Image
       run: docker build -t anubhavbagri/hello-world-java-demo:0.0.1.Release .
-      
+
+    - name: Push Docker Image
+      run: docker push anubhavbagri/hello-world-java-demo:0.0.1.Release
   
